@@ -1,4 +1,6 @@
 (ns hello)
 
 (defn hello [who]
-  (println "Hello," who))
+  (str "Hello," who))
+
+(hello " Nicole")
