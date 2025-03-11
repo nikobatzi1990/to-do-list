@@ -1,4 +1,4 @@
-(ns core
+(ns db
   (:require [next.jdbc :as jdbc]))
   
   (def db {:dbtype "h2" :dbname "to-do-list"})

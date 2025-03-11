@@ -1,0 +1,7 @@
+{:store :database
+ :migration-dir "" 
+ :db {:dbtype "h2"
+      :dbname "to-do-list"
+      :host "localhost"
+      :user "username"
+      :password "password"}}
