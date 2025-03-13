@@ -1,4 +1,4 @@
-{:paths ["src" "db-h2"]
+{:paths ["src" "resources/migrations"]
  :deps {org.clojure/clojure               {:mvn/version "1.12.0"}
         
         ;  Database
