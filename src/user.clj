@@ -1,5 +1,5 @@
 (ns user
-  (:require [migratus.core] :as migratus))
+  (:require [migratus.core :as migratus]))
 
 (def config {:store :database
              :migration-dir "resources/migrations"

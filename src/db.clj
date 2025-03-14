@@ -1,6 +1,6 @@
 (ns db
   (:require [next.jdbc :as jdbc]
-            [migratus.core] :as migratus))
+            [migratus.core :as migratus]))
   
   (def db {:dbtype "h2" :dbname "to-do-list"})
   (def ds (jdbc/get-datasource db))
