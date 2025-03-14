@@ -21,4 +21,3 @@
   (migratus/rollback config))
 
 (migrate)
-(create-migration "create-database")
